@@ -1,2 +1,2 @@
-# htmlacademy.github.io
+# nwotb.github.io
 Мой первый хостинг
