@@ -1,2 +1,2 @@
-# NWOTB
-учусь хостить сайт
+# htmlacademy.github.io
+Мой первый хостинг
