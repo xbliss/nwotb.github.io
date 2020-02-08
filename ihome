@@ -1,10 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//RU">
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
   <title>создано для канала @wotblitznwotb любое распространение только с согласия создателя @pegakmop </title>
-  <link rel="stylesheet" type="text/css" href="stil.css">
+  <link rel="stylesheet" href="css/style.css">
+
   <style>
     a {
       display: inline-block;
@@ -126,32 +127,38 @@
       box-shadow: 0.4em 0.4em 4px rgba(122, 122, 122, 0.5);
     }
   </style>
+
 </head>
 
 <body>
-  <div id="menu">
-    <div class="menu-row">
-      <div class="menu-column">
-        <div class="menu-link"><a href="http://m.yandex.ru/">Яндекс</a></div>
+  <main>
+    <p>
+      <div id="menu">
+        <div class="menu-row">
+          <div class="menu-column">
+            <div class="menu-link"><a href="http://m.yandex.ru/">Яндекс</a></div>
 
-        <div class="menu-link"><a href="http://go.chatbro.com"> чат wot blitz </a></div>
+            <div class="menu-link"><a href="http://go.chatbro.com"> чат wot blitz </a></div>
 
-        <div class="menu-link"><a href="music.html"> Радио и Музыка </a></div>
+            <div class="menu-link"><a href="music.html"> Радио и Музыка </a></div>
+
+          </div>
+          <div class="menu-column">
+            <div class="menu-link"><a href="wg.html">wargaming.net api</a></div>
+
+            <div class="menu-link"><a href="mods.html"> Оленемер и Моды </a></div>
+
+            <div class="menu-link"><a href="pegakmop.html"> подписаться на нас </a></div>
+
+          </div>
+        </div>
+
+        <div class="menu-link"><a href="http://tele.gg/pegakmop/"> ваши предложения и пожелания </a></div>
 
       </div>
-      <div class="menu-column">
-        <div class="menu-link"><a href="wg.html">wargaming.net api</a></div>
-
-        <div class="menu-link"><a href="mods.html"> Оленемер и Моды </a></div>
-
-        <div class="menu-link"><a href="pegakmop.html"> подписаться на нас </a></div>
-
-      </div>
-    </div>
-
-    <div class="menu-link"><a href="http://tele.gg/pegakmop/"> ваши предложения и пожелания  </a></div>
-
-  </div>
+    </p>
+    <h1>ui create by @pegakmop</h1>
+  </main>
 </body>
 
 </html>
