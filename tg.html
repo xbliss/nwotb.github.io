@@ -1,0 +1,294 @@
+<html class="mdc-typography">
+<head>
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script src="https://unpkg.com/wavesurfer.js/dist/wavesurfer.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telegram Messages</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Material+Icons&display=swap');
+body {
+ background-color:rgb(250,250,250);
+}
+.flex {margin-right:2px;margin-bottom:3.2px;}
+.center {text-align:center;}
+h3 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight:lighter;
+}
+.message {
+  font-family:'Montserrat',sans-serif;
+  font-size:20px;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: white;
+  background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+  background-attachment: fixed;
+  position: relative;
+}
+.message:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: -7px;
+  height: 20px;
+  width: 20px;
+  background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+  background-attachment: fixed;
+  border-bottom-right-radius: 15px;
+}
+.message:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -10px;
+  width: 10px;
+  height: 20px;
+  background: white;
+  border-bottom-right-radius: 10px;
+}
+.message img {
+ max-height:225px;
+ margin-right:0.5px;
+ margin-bottom:3.4px;
+ display:inline-block;
+}
+.ut {
+ font-size:calc(0.75rem - 9%) !important;
+}
+.fr {
+ flex-direction:row !important;
+}
+.arrow {
+ font-size:370%;
+ position:fixed;
+ opacity:.2;
+ bottom:50%;
+ z-index:100;
+}
+.arrow:hover {
+ color:lightgray;
+}
+.right {right:0.7px;}
+.left {left:0.7px;}
+video {width:300px; margin-bottom:5px;}
+</style>
+</head>
+<body>
+<header style="top:0px;left:0px;" class="mdc-top-app-bar mdc-top-app-bar--fixed" id="app-bar">
+  <div class="mdc-top-app-bar__row">
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+      <button id="menu" class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
+      <span class="mdc-top-app-bar__title">@ShortcutChat</span>
+    </section>
+  </div>
+</header>
+
+<aside class="mdc-drawer mdc-drawer--modal">
+  <div class="mdc-drawer__header">
+<h3 class="mdc-drawer__title">Сообщения</h3>
+    <h6 class="mdc-drawer__subtitle">1024 сообщений</h6>
+  </div>
+  <div class="mdc-drawer__content">
+    <nav id="dr" class="mdc-list">
+      <div class="mdc-list-item mdc-list-item--activated"><div class="fr">
+        <div class="mdc-list-item__text ut">1. от @CatKaster</div>
+        <div class="mdc-list-item__text">Тут может быть ваше сообщение</div>
+      </div></div>
+
+      <div class="mdc-list-item"><div class="fr">
+        <div class="mdc-list-item__text ut">1. от @CatKaster</div>
+        <div class="mdc-list-item__text">Тут может быть ваше сообщение</div>
+      </div></div>
+
+      <div class="mdc-list-item"><div class="fr">
+        <span class="mdc-list-item__text ut">27273738. от @CatKaster</span>
+        <span class="mdc-list-item__text">Тут может быть ваше сообщение</span>
+      </div></div>
+    </nav>
+  </div>
+</aside>
+<div class="mdc-drawer-scrim"></div>
+
+<div class="mdc-top-app-bar--fixed-adjust"></div>
+
+<div id="msg" class="message"><img alt="Изображение" src="https://catkaster.github.io/img/mfi.png"> <img alt="Изображение" src="https://catkaster.github.io/img/mfi.png"><img alt="Изображение" src="https://catkaster.github.io/img/mfi.png"> <img alt="Изображение" src="https://catkaster.github.io/img/mfi.png"><br>
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">insert_drive_file</i>
+  <span role="gridcell">
+file.shortcut
+  </span>
+</div>
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+
+<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">mic</i>
+  <span role="gridcell">
+<audio controls src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3"></audio>
+  </span>
+</div>
+<br>
+<video src="https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_640_3MG.mp4" controls></video>
+<br>handhab</div>
+
+<hr color="gray" align="left" size="1px">
+
+<h3>Сообщение</h3>
+<div style="display:inline-block;">
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">event</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="sendDate">1.1.1970, 01:00</span>
+  </span>
+</div>
+</div>
+
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i style="bottom:3px;" class="material-icons mdc-chip__icon mdc-chip__icon--leading">ID</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="id">13972726</span>
+</span>
+</div>
+</div>
+<hr color="lightgray" align="left" size="1px">
+
+<h3>Автор</h3>
+<div style="display:inline-block;">
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">face</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="name">Игорь Мопсович</span>
+  </span>
+</div>
+</div>
+
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">alternate_email</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="username">catkaster</span>
+  </span>
+</div>
+</div>
+
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">android</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="bot">Не бот</span>
+</span>
+</div>
+</div>
+
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i style="bottom:3px;" class="material-icons mdc-chip__icon mdc-chip__icon--leading">ID</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="authorId">13972726</span>
+</span>
+</div>
+</div>
+<hr color="lightgray" align="left" size="1px">
+
+<h3>Чат</h3>
+<div style="display:inline-block;">
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">title</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="name">Очень важное обсуждение</span>
+  </span>
+</div>
+</div>
+
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">alternate_email</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="username">ShortcutChat</span>
+  </span>
+</div>
+</div>
+
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">people_outline</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="username">supergroup</span>
+  </span>
+</div>
+</div>
+
+<div class="mdc-chip flex">
+  <div class="mdc-chip__ripple"></div>
+  <i style="bottom:3px;" class="material-icons mdc-chip__icon mdc-chip__icon--leading">ID</i>
+  <span role="gridcell">
+    <span role="button" tabindex="0" class="mdc-chip__text" id="authorId">-13972726</span>
+</span>
+</div>
+</div>
+
+<hr color="lightgray" align="left" size="1px">
+<span style="font-family:'Montserrat',sans-serif;font-size:12px;text-align:center;color:#a7c0cd;">UI created by <a style="color:#5b6abf;" href="https://tgram.link/catkaster">CatKaster</a></span>
+
+<script>
+//mdc
+var drawer = mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
+var appBar = document.querySelector('#app-bar');
+mdc.topAppBar.MDCTopAppBar.attachTo(appBar);
+appBar.querySelector('#menu').addEventListener('click', function() {drawer.open = true;
+});
+
+//shortcut integrator
+const he= text => {
+ let el = document.createElement('span');
+el.innerText = text;
+return el.innerHTML;
+};
+const msgIn= message, type => {
+ let out = '';
+//photo
+ if ('photo' in message) { out+= (type) ? '🖼' : <img onclick="img(${message.photo.toString().replace(/"/g, "'"});" alt="🖼" src="${file(message.photo[0].file_id)}">${('media_group_id' in message)?'<span class="small">*в сообщении имеется больше медиа, но мы не можем их получить, посмотрите по <a href="https://tgram.link/s/'+message.chat.username+'/'+message.message_id + '">этой ссылке</a>'}<br>;
+};
+};
+const msg = document.getElementById("msg");
+let err;
+try {
+const data = JSON.parse('{"hello":"world"}');
+err = false;
+} catch (e){
+msg.innerHTML = <h3>Упс... Произошла ошибка</h3><br>Не удалось обработать ответ от сервера<br><br><span class="ut">Ошибка:<br>${he(e)}</span>
+err=true;
+}
+if(!err){
+try {
+ document.body.innerHTML += `<i class="arrow left material-icons" onclick="leftBtn();">keyboard_arrow_left</i>
+<i class="arrow right material-icons" onclick="rightBtn();">keyboard_arrow_right</i>`;
+ const result = data.result;
+ var drawer = new Promise(function(resolve, reject) {
+ let drEl = document.getElementById('dr');
+result.forEach(item, index =>{
+ drEl.innerHTML += (index != 0) ? `<div class="mdc-list-item"><div class="fr">
+        <div class="mdc-list-item__text ut">${item.message.message_id}. от ${("username" in item.message.from)? "@"+he(item.message.from.username) : he(item.message.from.first_name + item.message.from.last_name)}</div>
+        <div class="mdc-list-item__text">he(msg(item.message, 'drawer'));</div>
+      </div></div>`
+})
+});
+} catch (e) {
+ msg.innerHTML = <h3>Упс... Произошла ошибка</h3><br><br><span class="ut">Ошибка:<br>${he(e)}</span>
+};
+};
+</script>
+
+</body>
+</html>
