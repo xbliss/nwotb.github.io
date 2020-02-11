@@ -1,4 +1,4 @@
 <a href="https://nwotb.github.io/">
-# nwotb.github.io</a>
+#NWOTB.GitHub.io</a>
 <br>
 Мой первый хостинг
