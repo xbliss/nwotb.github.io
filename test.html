@@ -3,6 +3,98 @@
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+#menu .menu-link {
+      border-radius: 5pt;
+      background-color: blue;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    #menu .menu-link:last-of-type {
+      margin-bottom: 0;
+    }
+
+    #menu .menu-link:hover {
+      background-color: red;
+    }
+
+    .menu-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+
+    }
+
+    .menu-column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+      padding: 5px;
+    }
+
+    body {
+      scrollbar-3dlight-color: brown;
+      scrollbar-arrow-color: red;
+      scrollbar-base-color: gold;
+      scrollbar-darkshadow-color: silver;
+      scrollbar-face-color: red;
+      scrollbar-highlight-color: purple;
+      scrollbar-shadow-color: blue;
+      scrollbar-track-color: orange;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 80px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: yellow;
+    }
+
+    .modal-content {
+      background-color: yellow;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      z-index: 2
+    }
+
+    .close {
+      color: red;
+      float: right;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: aqua;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .stoi {
+      font-size: 15pt;
+      width: 90%;
+      margin: 35px;
+      border: 3px solid red;
+      padding: 3px;
+    }
+
+    .zona {
+      font-size: 35pt;
+      box-shadow: 0.4em 0.4em 4px rgba(122, 122, 122, 0.5);
+    }
+
 <title>Telegram Messages</title>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Material+Icons&display=swap');
