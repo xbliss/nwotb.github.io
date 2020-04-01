@@ -21,6 +21,9 @@
       </description>
             <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/f0ccc68212e40480bc2b59a1c987893f:2020040311/tvseries/8b5c75b168b0f4a3b7943934520f2e9abd6660ec/360.mp4" />
             <guid>aae20190425</guid>
+            <itunes:explicit>true</itunes:explicit>
+        </item>
+        <item>
                         <itunes:episodeType>full</itunes:episodeType>
             <itunes:episode>11</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -30,6 +33,9 @@
       </description>
             <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/a7aa6ef804599c7a254439c0b96d2036:2020040311/tvseries/92204575aaddaec39033b708efd23d7ff95407ac/360.mp4" />
             <guid>aae20190425</guid>
+            <itunes:explicit>true</itunes:explicit>
+        </item>
+        <item>
             <itunes:episodeType>full</itunes:episodeType>
             <itunes:episode>10</itunes:episode>
             <itunes:season>1</itunes:season>
