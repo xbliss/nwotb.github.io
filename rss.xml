@@ -3,167 +3,19 @@
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
     xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Волчонок 6</title>
+        <title>название</title>
         <description>
-Мистический телесериал «Волчонок» снят по мотивам одноименного фильма Рода Дэниэла, вышедшего на экраны в 1985 году с Майклом Дж. Фоксом в главной роли.Шестнадцатилетний подросток по имени Скотт МакКолл вел самый обычный образ жизни старшеклассника. Парень играл за школьную команду по лакроссу, и пользовался не особой популярностью среди девчонок. Но однажды с ним произошёл случай, который кардинальным образом изменил его жизнь. Оказавшись поздно ночью в лесу, Скотт подвергается нападению оборотня. Но, несмотря на огромную силу зверя, парню удается вырваться из его лап, отделавшись лишь испугом и небольшим укусом.Вскоре после этого происшествия Скотт начинает замечать, что с его телом происходят странные изменения: раны очень быстро заживают, слух стал в разы острее, и он стал намного быстрее и ловчее сверстников. Однако наряду с этим в парне начинают пробуждаться и другие, более негативные чувства. Чтобы не привлекать к себе внимания, и не навредить окружающим людям, Скотту предстоит научиться контролировать ужасного и свирепого зверя внутри себя.
+описание
     </description>
         <itunes:author>@pegakmop</itunes:author>
         <itunes:image href="https://nwotb.github.io/img/B1C2A97E-8394-44DE-8D70-A2C6F9CCA847.jpeg" />
         <itunes:type>serial</itunes:type>
         <itunes:explicit>true</itunes:explicit>
         <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>20</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 20 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/d0651e4d59e4d5e759304aaaaa8abe2e:2020040718/tvseries/ac4659e823acbaaf93e6c7852927ebd13657028f/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>19</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 19 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/5115cb73437dae4fa187c848cf058662:2020040718/tvseries/50353cb5ed0dccc57885fb0efbcf9d9d43e7111e/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>18</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 18 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/90ab1b97ab73284c6198dda294022274:2020040718/tvseries/10356f2bc76ab44b9b49c777abe21addca585ebc/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>17</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 17 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/019b1135b04b8333fd288ce8abcb085c:2020040718/tvseries/12329bc8667b904482ab9384951a94367b7d6d79/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>16</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 16 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/993684a3fe0c3786b2324ae50a45b828:2020040718/tvseries/f5812ceca9a4a9cfbc30489b79c7f6e7a892e438/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>15</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 15 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/239da88a1fec926da7629d2fa62161e1:2020040718/tvseries/049be49d294ec66672abc11ab04dcbe0db8eca72/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>14</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 14 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/c7d8acdcf930ff05171a32728691a667:2020040718/tvseries/c13aef4a98b47b2b8f04af512817e7311edecb12/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>13</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 13 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/a4b54ef124e8a95df463692577c7b3d3:2020040718/tvseries/a1c320139d7ca37618a0006576779546c9442939/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>12</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 12 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/b7417b46f4d775322a418566d8de9855:2020040718/tvseries/6068500ac8420ca4308b032267ca676c47deb06d/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>11</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 11 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/c9476977b2d59882a324b941a954b00d:2020040718/tvseries/e7db04d07227d9441962619e6e93366f0fcd9c31/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>10</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 10 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/18e442412f41926db21461fc7b5a8d97:2020040718/tvseries/e93647a599de1be3a151f69e9fd93d501e119a11/240.mp4" />
-            <guid>aae20190425</guid>
-            <itunes:explicit>true</itunes:explicit>
-        </item>
-        <item>
-
-<itunes:episodeType>full</itunes:episodeType>
-            <itunes:episode>9</itunes:episode>
-            <itunes:season>6</itunes:season>
-            <title>6 сезон 9 Серия</title>
-            <description>
-        Волчонок (Teen Wolf)
-      </description>
-            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/592e80e5f2e43965721a35a1c6ecdef1:2020040718/tvseries/06ee72277f907da5ab1961dc2eb884d19341a52b/240.mp4" />
+                       
+            <title>фильм</title>
+            <description>название фильма</description>
+            <enclosure length="498537" type="video/mp4" url="https://load.hdrezka-ag.net/movies/0ed2a087d1f3ba48dcda3b31027f03304c3f910b/9b05cf2dcea47400737af91e93bcc001:2020041021/240.mp4:hls:manifest.m3u8" />
             <guid>aae20190425</guid>
             <itunes:explicit>true</itunes:explicit>
         </item>
