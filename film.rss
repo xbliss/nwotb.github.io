@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Фильм</title>
+        <description>
+описание
+    </description>
+        <itunes:author>@pegakmop</itunes:author>
+        <itunes:image href="
+" />
+        <itunes:type>serial</itunes:type>
+        <itunes:explicit>true</itunes:explicit>
+        <item>
+                       
+            <title>название фильма</title>
+            <description></description>
+            <enclosure length="666666" type="video/mp4" url="https://load.hdrezka-ag.net/movies/0ed2a087d1f3ba48dcda3b31027f03304c3f910b/9b05cf2dcea47400737af91e93bcc001:2020041021/240.mp4:hls:manifest.m3u8" />
+            <guid>aae20202020</guid>
+            <itunes:explicit>true</itunes:explicit>
+        </item>
+    </channel>
+</rss>
