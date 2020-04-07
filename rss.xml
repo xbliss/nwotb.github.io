@@ -16,7 +16,7 @@
                        
             <title>название фильма</title>
             <description></description>
-            <enclosure length="666666" type="video/mp4" url="https://load.hdrezka-ag.net/movies/0ed2a087d1f3ba48dcda3b31027f03304c3f910b/9b05cf2dcea47400737af91e93bcc001:2020041021/240.mp4:hls:manifest.m3u8" />
+            <enclosure length="666666" type="video/mp4" url="https://load.hdrezka-ag.net/movies/b362a836086609c8a58e093bd58e05e93a3bf8f3/c634d9449d734067876b9bccc8759c08:2020041021/240.mp4:hls:manifest.m3u8" />
             <guid>aae20202020</guid>
             <itunes:explicit>true</itunes:explicit>
         </item>
