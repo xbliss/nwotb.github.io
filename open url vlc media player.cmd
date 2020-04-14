@@ -1,0 +1,1 @@
+for /f %%i in (shortcuts.txt) do "C:\Program Files\VLC\vlc.exe" %%i
