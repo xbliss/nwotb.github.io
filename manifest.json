@@ -1,10 +1,27 @@
 {
-  "name": "Дудочник подкаст",
-  "short_name": "Дудка",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
-  "display": "standalone",
-  "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/"
+"dir": "ltr",
+"lang": "Russian",
+"name": "Александр Штеркель - заметки о SEO",
+"scope": "/",
+"display": "standalone",
+"start_url": "https://shterkel.com/",
+"short_name": "SEO",
+"description": "Мои заметки по оптимизации сайта для результативного SEO. Тематические посты для сеошников, подробные инструкции. ¯\\_(ツ)_/¯",
+"orientation": "any",
+"background_color": "#fafafa",
+"theme_color": "#fafafa",
+"related_applications": [],
+"prefer_related_applications": false,
+"icons": [
+{
+"src": "/images/icons/apple-touch-icon.png",
+"type": "image/png",
+"sizes": "57x57"
+},
+{
+"src": "/images/icons/android-icon-48x48.png",
+"sizes": "48x48",
+"type": "image/png"
+}
+]
 }
